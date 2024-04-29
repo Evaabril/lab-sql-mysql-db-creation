@@ -1,16 +1,17 @@
-SELECT * from customer;
+SELECT * from customers;
 
-UPDATE customer
+UPDATE customers
 	SET email = 'ppicasso@gmail.com'
-    WHERE customer_name = 'Pablo Picasso';
+    WHERE id = 1 ;
     
-UPDATE customer
+UPDATE customers
 	SET email = 'lincoln@us.gov'
-    WHERE customer_name = 'Abraham Lincoln';
+    WHERE id = 2;
     
-UPDATE customer
+UPDATE customers
 	SET email = 'hello@napoleon.me'
-    WHERE customer_name = 'Napoléon Bonaparte';
-    
+    WHERE id = 3;
+  
+
 SELECT *
-       FROM customer;
+       FROM customers;
