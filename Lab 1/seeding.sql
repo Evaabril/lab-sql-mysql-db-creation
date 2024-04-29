@@ -1,4 +1,6 @@
+USE lab_mysql;
 SELECT * from cars_lab;
+
 
 INSERT INTO cars_lab (VIN, manufacturer, model, year_c, colour)
 	VALUES ('3K096I98581DHSNUP', 'Volkswagen', 'Tiguan', 2019, 'Blue'),

@@ -1,3 +1,4 @@
+USE lab_mysql;
 SELECT * from customers;
 
 UPDATE customers
